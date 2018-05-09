@@ -1,173 +1,509 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Shoemer</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="css/slick.css">
-	<link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoemer</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header class="header">
-		<div class="header__top">
-			<div class="container">
-				<div class="header__topInner">
-					
-				</div>
-			</div>
-		</div>
-		<div class="header__bottom">
-			<div class="container">
-				<div class="header__bottomInner">
-					<div class="header__bottomLeft">
-						<a href="/" class="logo"></a>
-					</div>
-					<div class="header__bottomRiht">
-						<div class="burger">
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="header__mobMenu">
-			<div class="header__mobMenuInner">
-				<div class="basket">
-					<a href="#" class="basket__item">Корзина (0)</a>
-				</div>
-				<div class="mainMenu">
-					<ul class="mainMenu__list">
-						<li class="mainMenu-item">
-							<a href="#">Мужская</a>
-						</li>
-						<li class="mainMenu-item">
-							<a href="#">Женская</a>
-						</li>
-						<li class="mainMenu-item">
-							<a href="#">Детская</a>
-						</li>
-					</ul>
-				</div>
-				<div class="topMenu">
-					<ul class="topMenu__list">
-						<li class="topMenu-item">
-							<a href="#">Оплата и доставка</a>
-						</li>
-						<li class="topMenu-item">
-							<a href="#">Гарантия</a>
-						</li>
-						<li class="topMenu-item">
-							<a href="#">О нас</a>
-						</li>
-						<li class="topMenu-item">
-							<a href="#">Контакты</a>
-						</li>
-					</ul>
-				</div>
-				<div class="search">
-					<form action="/" method="post" class="header__form">
-						<label>
-							<input type="search" placeholder="Поиск" class="s">
-						</label>
-						<button></button>
-					</form>	
-				</div>
-			</div>
-		</div>
-	</header>
-	<div class="main">
-		<div class="breadcrumbs">
-			<div class="container">
-				<ul class="breadcrumbs__menu">
-					<li class="breadcrumbs__menu-item">
-						<a href="#">Каталог</a>
-					</li>
-					<li class="breadcrumbs__menu-item">
-						<a href="#">Женская</a>
-					</li>
-					<li class="breadcrumbs__menu-item">
-						<a href="#">Весна-осень</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="content__menu">
-			<div class="container">
-				<h2>Женская обувь (весна-осень)</h2>
-			</div>
-		</div>
-		<section class="description">
-			<div class="container">
-				<h1>Женская коллекция «Весна-осень»</h1>
-				<p>Древние евреи делали обувь из кожи, шерсти, тростника и дерева. Известно было три типа обуви — сандалии, башмаки (они закрывали стопу до подъёма, всегда имели каблуки, а на ноге удерживались с помощью шнурков, которые завязывали красивым бантиком) и сапоги, в которых ходили путешественники и солдаты. У богатых людей обувь бывала чрезвычайно роскошной — в каблуки башмаков, например, часто вкладывали маленькие флакончики с духами. С ношением обуви было связано множество традиций, запретов и предписаний. Так, ходить босиком обычно считалось крайне неприличным, но в определённых случаях полагалось снимать обувь — например, при восхождении на Храмовую гору в Иерусалиме или в присутствии гостя, которому хозяева хотели выразить своё особое уважение. Обувь снимали также, чтобы подчеркнуть важность и бесповоротность принимаемого решения — например, в суде или при передаче недвижимого имущества. В Библии упомянут ещё один любопытный обычай, связанный с разуванием. Если человек умирал, оставив жену бездетной, его брат (или другой родственник) должен был жениться на ней. В случае отказа он подвергался публичному унижению: невестка, от которой он отказался, при всём народе снимала с его ноги обувь и плевала ему в лицо со словами: «Так поступают с человеком, который не созидает дома брату своему!».</p>
-			</div>
-		</section>
-	</div>
-	<footer class="footer">
-		<div class="container">
-			<div class="footerInner">
-				<div class="footer__left">
-					<div class="footer__menu">
-						<ul class="footer__menu-list">
-							<li class="menu__list">
-								<a href="#">Оплата и доставка</a>
-							</li>
-							<li class="menu__list">
-								<a href="#">Гарантия</a>
-							</li>
-							<li class="menu__list">
-								<a href="#">О нас</a>
-							</li>
-							<li class="menu__list">
-								<a href="#">Контакты</a>
-							</li>
-						</ul>
-					</div>
-					<div class="footer__menu">
-						<ul class="footer__menu-list">
-							<li class="menu__list">
-								<span>Каталог</span>
-							</li>
-							<li class="menu__list">
-								<a href="#">Мужская</a>
-							</li>
-							<li class="menu__list">
-								<a href="#">Женская</a>
-							</li>
-							<li class="menu__list">
-								<a href="#">Детская</a>
-							</li>
-						</ul>
-					</div>
-					<div class="footer__menu">
-						<ul class="footer__menu-list">
-							<li class="menu__list">
-								<span>Контакты</span>
-							</li>
-							<li class="menu__list">
-								<a href="tel:+380938943560">(+38) 093 894-35-60</a>
-							</li>
-							<li class="menu__list">
-								<a href="tel:+380504150611">(+38) 050 415-06-11</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="footer__right">
+<div class="modal overlay"></div>
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="header__topInner">
+
+            </div>
+        </div>
+    </div>
+    <div class="header__bottom">
+        <div class="container">
+            <div class="header__bottomInner">
+                <div class="header__bottomLeft">
+                    <a href="/" class="logo"></a>
+                </div>
+                <div class="header__bottomRiht">
+                    <div class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__mobMenu">
+        <div class="header__mobMenuInner">
+            <div class="basket">
+                <a href="#" class="basket__item">Корзина (0)</a>
+            </div>
+            <div class="mainMenu">
+                <ul class="mainMenu__list">
+                    <li class="mainMenu-item">
+                        <a href="#">Мужская</a>
+                    </li>
+                    <li class="mainMenu-item">
+                        <a href="#">Женская</a>
+                    </li>
+                    <li class="mainMenu-item">
+                        <a href="#">Детская</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="topMenu">
+                <ul class="topMenu__list">
+                    <li class="topMenu-item">
+                        <a href="#">Оплата и доставка</a>
+                    </li>
+                    <li class="topMenu-item">
+                        <a href="#">Гарантия</a>
+                    </li>
+                    <li class="topMenu-item">
+                        <a href="#">О нас</a>
+                    </li>
+                    <li class="topMenu-item">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search">
+                <form action="/" method="post" class="header__form">
+                    <label>
+                        <input type="search" placeholder="Поиск" class="s">
+                    </label>
+                    <button></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="content">
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul class="breadcrumbs__menu">
+                <li class="breadcrumbs__menu-item">
+                    <a href="#">Каталог</a>
+                </li>
+                <li class="breadcrumbs__menu-item">
+                    <a href="#">Женская</a>
+                </li>
+                <li class="breadcrumbs__menu-item">
+                    <a href="#">Весна-осень</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content__menu">
+        <div class="container">
+            <h2>Женская обувь (весна-осень)</h2>
+            <div class="left__sidebar col-md-3 col-lg-3">
+                <div class="main__filtres">
+                    <span class="closeModelBtn"></span>
+                    <div class="main_accordion">
+                        <div class="filters"><h3>Фильтры</h3></div>
+                        <div class="accordion__item">
+                            <span class="accordion__itemTitle">Размер</span>
+                            <div class="accordion__checkboxWrap">
+                                <div class="inputWrap">
+                                    <input id="size" type="checkbox">
+                                    <label for="size">< 40</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="size" type="checkbox">
+                                    <label for="size">40</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="size" type="checkbox">
+                                    <label for="size">41</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="size" type="checkbox">
+                                    <label for="size">42</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="size" type="checkbox">
+                                    <label for="size">43</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="size" type="checkbox">
+                                    <label for="size">44</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="size" type="checkbox">
+                                    <label for="size">45</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <span class="accordion__itemTitle">Бренд</span>
+                            <div class="accordion__checkboxWrap">
+                                <div class="inputWrap">
+                                    <input id="brend" type="checkbox">
+                                    <label for="brend">Molto</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="brend" type="checkbox">
+                                    <label for="brend">Shhuna</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="brend" type="checkbox">
+                                    <label for="brend">PlariBrand</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="brend" type="checkbox">
+                                    <label for="brend">Crosswood</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="brend" type="checkbox">
+                                    <label for="brend">Binari</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <span class="accordion__itemTitle">Сезон</span>
+                            <div class="accordion__checkboxWrap">
+                                <div class="inputWrap">
+                                    <input id="season" type="checkbox">
+                                    <label for="season">Весна-осень</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="season" type="checkbox">
+                                    <label for="season">Лето</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="season" type="checkbox">
+                                    <label for="season">Зима</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filters"><h3>Каталог</h3></div>
+                        <div class="accordion__item">
+                            <span class="accordion__itemTitle">Мужская обувь</span>
+                            <div class="accordion__checkboxWrap">
+                                <div class="inputWrap">
+                                    <input id="men" type="checkbox">
+                                    <label for="men">Ботинки</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="men" type="checkbox">
+                                    <label for="men">Туфли</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="men" type="checkbox">
+                                    <label for="men">Макасины</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="men" type="checkbox">
+                                    <label for="men">Кеды</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="men" type="checkbox">
+                                    <label for="men">Кроссовки</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="men" type="checkbox">
+                                    <label for="men">Слипоны</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="men" type="checkbox">
+                                    <label for="men">Сапоги</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <span class="accordion__itemTitle">Женская обувь</span>
+                            <div class="accordion__checkboxWrap">
+                                <div class="inputWrap">
+                                    <input id="women" type="checkbox">
+                                    <label for="women">Сапоги</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="women" type="checkbox">
+                                    <label for="women">Ботинки</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="women" type="checkbox">
+                                    <label for="women">Туфли</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="women" type="checkbox">
+                                    <label for="women">Балетки</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="women" type="checkbox">
+                                    <label for="women">Босоножки</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <span class="accordion__itemTitle">Детская обувь</span>
+                            <div class="accordion__checkboxWrap">
+                                <div class="inputWrap">
+                                    <input id="children" type="checkbox">
+                                    <label for="children">Ботинки</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="children" type="checkbox">
+                                    <label for="children">Туфли</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="children" type="checkbox">
+                                    <label for="children">Сапоги</label>
+                                </div>
+                                <div class="inputWrap">
+                                    <input id="children" type="checkbox">
+                                    <label for="children">Кеды</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__content col-xs-12 col-md-9 col-lg-9">
+                <div class="main__position">
+                    <div class="openModelBtn"><span>Фильтры</span><div class="down__button"></div>
+                    </div>
+                    <select name="sort" id="sort">
+                        <option value="Сортировка по имени (Аа–Яz)">Сортировка по имени (Аа–Яz)</option>
+                    </select>
+                    <div class="thumb__pagin">
+                        <div class="main_thumbnails_container">
+                            <div class="thumbnail_item col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="thumb_image">
+                                    <a href="#"><img src="images/1.png" alt="img"></a>
+                                    <div class="thumb_sale"><span></span></div>
+                                </div>
+                                <div class="thumb_content">
+                                    <div class="thumb_description">
+                                        <span>TEXAS Faux Fur Slip On</span>
+                                    </div>
+                                    <div class="thumb_price">
+                                        <span class="price">2150</span> грн
+                                        <span class="thumb_price_sale"><span class="price_sale">2500 грн</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail_item col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="thumb_image">
+                                    <a href="#"><img src="images/1.png" alt="img"></a>
+                                    <div class="thumb_sale"><span></span></div>
+                                </div>
+                                <div class="thumb_content">
+                                    <div class="thumb_description">
+                                        <span>TEXAS Faux Fur Slip On</span>
+                                    </div>
+                                    <div class="thumb_price">
+                                        <span class="price">2150</span> грн
+                                        <span class="thumb_price_sale"><span class="price_sale">2500 грн</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail_item col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="thumb_image">
+                                    <a href="#"><img src="images/1.png" alt="img"></a>
+                                    <div class="thumb_sale"><span></span></div>
+                                </div>
+                                <div class="thumb_content">
+                                    <div class="thumb_description">
+                                        <span>TEXAS Faux Fur Slip On</span>
+                                    </div>
+                                    <div class="thumb_price">
+                                        <span class="price">2150</span> грн
+                                        <span class="thumb_price_sale"><span class="price_sale">2500 грн</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thumbnail_item col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="thumb_image">
+                                    <a href="#"><img src="images/1.png" alt="img"></a>
+                                </div>
+                                <div class="thumb_content">
+                                    <div class="thumb_description">
+                                        <span>TEXAS Faux Fur Slip On</span>
+                                    </div>
+                                    <div class="thumb_price">
+                                        <span class="price">2150</span> грн
+                                        <span class="thumb_price_sale"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="thumbnail_item col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="thumb_image">
+                                    <a href="#"><img src="images/1.png" alt="img"></a>
+                                </div>
+                                <div class="thumb_content">
+                                    <div class="thumb_description">
+                                        <span>TEXAS Faux Fur Slip On</span>
+                                    </div>
+                                    <div class="thumb_price">
+                                        <span class="price">2150</span> грн
+                                        <span class="thumb_price_sale"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="thumbnail_item col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="thumb_image">
+                                    <a href="#"><img src="images/1.png" alt="img"></a>
+                                </div>
+                                <div class="thumb_content">
+                                    <div class="thumb_description">
+                                        <span>TEXAS Faux Fur Slip On</span>
+                                    </div>
+                                    <div class="thumb_price">
+                                        <span class="price">2150</span> грн
+                                        <span class="thumb_price_sale"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="thumbnail_item col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="thumb_image">
+                                    <a href="#"><img src="images/1.png" alt="img"></a>
+                                </div>
+                                <div class="thumb_content">
+                                    <div class="thumb_description">
+                                        <span>TEXAS Faux Fur Slip On</span>
+                                    </div>
+                                    <div class="thumb_price">
+                                        <span class="price">2150</span> грн
+                                        <span class="thumb_price_sale"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="thumbnail_item col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="thumb_image">
+                                    <a href="#"><img src="images/1.png" alt="img"></a>
+                                </div>
+                                <div class="thumb_content">
+                                    <div class="thumb_description">
+                                        <span>TEXAS Faux Fur Slip On</span>
+                                    </div>
+                                    <div class="thumb_price">
+                                        <span class="price">2150</span> грн
+                                        <span class="thumb_price_sale"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="thumbnail_item col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                                <div class="thumb_image">
+                                    <a href="#"><img src="images/1.png" alt="img"></a>
+                                </div>
+                                <div class="thumb_content">
+                                    <div class="thumb_description">
+                                        <span>TEXAS Faux Fur Slip On</span>
+                                    </div>
+                                    <div class="thumb_price">
+                                        <span class="price">2150</span> грн
+                                        <span class="thumb_price_sale"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__pagination">
+                            <ul class="pagination__list">
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">...</a></li>
+                                <li><a href="#">12</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <section class="description">
+        <div class="container">
+            <h1>Женская коллекция «Весна-осень»</h1>
+            <p>Древние евреи делали обувь из кожи, шерсти, тростника и дерева. Известно было три типа обуви — сандалии,
+                башмаки (они закрывали стопу до подъёма, всегда имели каблуки, а на ноге удерживались с помощью шнурков,
+                которые завязывали красивым бантиком) и сапоги, в которых ходили путешественники и солдаты. У богатых
+                людей обувь бывала чрезвычайно роскошной — в каблуки башмаков, например, часто вкладывали маленькие
+                флакончики с духами. С ношением обуви было связано множество традиций, запретов и предписаний. Так,
+                ходить босиком обычно считалось крайне неприличным, но в определённых случаях полагалось снимать обувь —
+                например, при восхождении на Храмовую гору в Иерусалиме или в присутствии гостя, которому хозяева хотели
+                выразить своё особое уважение. Обувь снимали также, чтобы подчеркнуть важность и бесповоротность
+                принимаемого решения — например, в суде или при передаче недвижимого имущества. В Библии упомянут ещё
+                один любопытный обычай, связанный с разуванием. Если человек умирал, оставив жену бездетной, его брат
+                (или другой родственник) должен был жениться на ней. В случае отказа он подвергался публичному унижению:
+                невестка, от которой он отказался, при всём народе снимала с его ноги обувь и плевала ему в лицо со
+                словами: «Так поступают с человеком, который не созидает дома брату своему!».</p>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footerInner">
+            <div class="footer__left">
+                <div class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="menu__list">
+                            <a href="#">Оплата и доставка</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#">Гарантия</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="menu__list">
+                            <span>Каталог</span>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#">Мужская</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#">Женская</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#">Детская</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="menu__list">
+                            <span>Контакты</span>
+                        </li>
+                        <li class="menu__list">
+                            <a href="tel:+380938943560">(+38) 093 894-35-60</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="tel:+380504150611">(+38) 050 415-06-11</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__right">
 					<span class="footer__cp">
 						Сайт от 
 						<a href="#"> студии Koda</a>
 						,2017 год
 					</span>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/main.js"></script>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
